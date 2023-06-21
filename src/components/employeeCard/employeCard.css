@@ -1,0 +1,78 @@
+.cardContainer{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 10px 10px;
+    -webkit-box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+    box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);    
+    position: relative;
+
+}
+
+.cardName{
+    font-size: 24px;
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+.cardHr{
+    position: absolute;
+    top: 35px;
+    margin:10px;
+    width: 95%;
+}
+
+.cardDetails{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.detailLabel{
+    font-weight: 500;
+}
+
+.detailValue{
+    font-weight: 300;
+}
+
+.cardHr1{
+    position: absolute;
+    top: 210px;
+    margin:10px;
+    width: 95%;
+}
+
+.cardFunction{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 60px;
+}
+
+button{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    outline: 0;
+    border: 0;
+    font-weight: 600;
+    height: 40px;
+    min-width: 64px;
+    padding: 6px 16px;
+    color: white;
+    background-color: #1976d2;
+    width: 15%;
+    font-size: large;
+    border-radius: 8px;
+}
+
+button:hover{
+    background-color: blue;
+    box-shadow: -1px 5px 10px -7px rgba(0,0,0,0.81);
+    -webkit-box-shadow: -1px 5px 10px -7px rgba(0,0,0,0.81);
+}

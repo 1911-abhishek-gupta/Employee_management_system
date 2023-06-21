@@ -1,0 +1,31 @@
+.header1{
+top: 0px;
+position: sticky;
+width: 100%;
+z-index: 10;
+background-color: white;
+}
+
+.homeContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.noElement{
+    align-items: center;
+    justify-content: center;
+    background-color: lightgrey;
+    overflow: hidden;
+    height: 80vh;    
+}
+
+.noElementText{
+    font-size: larger;
+    font-weight: 450;
+    align-items: center;
+    margin-top: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 30%;
+    margin-right: 30%;
+}
